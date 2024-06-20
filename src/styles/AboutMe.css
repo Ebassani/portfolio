@@ -1,0 +1,24 @@
+.about-me-container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .about-me-text {
+    max-width: 600px;
+  }
+  
+  .about-me-text h1 {
+    margin-bottom: 10px;
+  }
+  
+  .about-me-text p {
+    line-height: 1.5;
+  }
