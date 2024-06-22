@@ -1,7 +1,7 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
-import image from './images/Portrait.jpg'
+import Header from './components/Header';
 
 const skills = [
   { skill: 'JavaScript', description: 'Experienced in ES6+' },
@@ -14,8 +14,13 @@ const skills = [
 function App() {
   return (
     <div className="App">
-      <AboutMe />
-      <Skills skills={skills}/>
+      <Header />
+      <div id="about">
+        <AboutMe />
+      </div>
+      <div id="skills">
+        <Skills skills={skills}/>
+      </div>
     </div>
   );
 }
