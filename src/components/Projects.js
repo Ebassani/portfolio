@@ -5,7 +5,9 @@ import '../styles/Projects.css';
 const Projects = (props) => {
   return (
     <div className="projects-container" id="projects">
-      <h2>Projects</h2>
+        <div className='title'>
+        <h2>Projects</h2>
+      </div>
       <div className="projects-cards">
         {props.projects.map((project, index) => (
           <div key={index} className="project-card">

@@ -32,14 +32,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div id="about">
-        <AboutMe />
-      </div>
-      <div id="skills">
-        <Skills skills={skills}/>
-      </div>
-      <div id="projects">
-        <Projects projects={projectsData}/>
+      <div className='containers'>
+        <div id="about" className='container'>
+          <AboutMe />
+        </div>
+        <div id="skills" className='container'>
+          <Skills skills={skills}/>
+        </div>
+        <div id="projects" className='container'>
+          <Projects projects={projectsData}/>
+        </div>
       </div>
     </div>
   );
