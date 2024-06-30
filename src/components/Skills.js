@@ -5,7 +5,9 @@ import '../styles/Skills.css';
 const Skills = (props) => {
   return (
     <div className="skills-container">
-      <h2>Skills</h2>
+      <div className='title'>
+        <h2>Skills</h2>
+      </div>
       <div className="skills-cards">
         {props.skills.map((item, index) => (
           <div key={index} className="skill-card">

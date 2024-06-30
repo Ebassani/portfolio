@@ -5,7 +5,7 @@ import '../styles/Projects.css';
 const Projects = (props) => {
   return (
     <div className="projects-container" id="projects">
-        <div className='title'>
+      <div className='title'>
         <h2>Projects</h2>
       </div>
       <div className="projects-cards">
