@@ -1,25 +1,21 @@
 .about-me-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-  }
-  
-  .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .about-me-text {
-    max-width: 600px;
-  }
-  
-  .about-me-text h1 {
-    margin-bottom: 10px;
-  }
-  
-  .about-me-text p {
-    line-height: 1.5;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.profile-pic {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.about-me-text {
+  max-width: 40%;
+}
+
+.about-me-text h1 {
+  margin-bottom: 2rem;
+}
