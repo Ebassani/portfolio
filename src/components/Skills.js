@@ -8,9 +8,9 @@ const Skills = (props) => {
       <div className='title'>
         <h2>Skills</h2>
       </div>
-      <div className="skills-cards">
+      <div className="cards">
         {props.skills.map((item, index) => (
-          <div key={index} className="skill-card">
+          <div key={index} className="card">
             <h3>{item.skill}</h3>
             <p>{item.description}</p>
           </div>

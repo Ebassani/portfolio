@@ -1,4 +1,5 @@
 import './App.css';
+import { useEffect } from "react"
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Header from './components/Header';
@@ -27,14 +28,19 @@ const projectsData = [
     link: 'https://link-to-project-three.com'
   },
   {
-    title: 'Project Foour',
-    description: 'Description for project three.',
+    title: 'Project Four',
+    description: 'Description for project four.',
     link: 'https://link-to-project-four.com'
   },
   
 ];
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Portifolio Eduardo"
+  }, [])
+
   return (
     <div className="App">
       <Header />

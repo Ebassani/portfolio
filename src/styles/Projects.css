@@ -6,35 +6,13 @@
 }
 
 
-
-.projects-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.project-card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 0.5rem;
-  width: 12.5rem;
-  text-align: center;
-}
-
 .project-card:hover {
-  background-color: rgb(63, 63, 63);
-  color: #f9f9f9;
   cursor: pointer;
 
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
-}
+  -webkit-box-shadow: 0 0 10px 4px #bdbdbd;
+  -moz-box-shadow: 0 0 10px 4px #bdbdbd;
+  box-shadow: 0 0 10px 4px #bdbdbd;
 
-.project-card:hover > h3 {
-  color: #f9f9f9;
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
