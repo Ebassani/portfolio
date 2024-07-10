@@ -23,7 +23,8 @@ const Skills = (props) => {
   return (
     <div className="skills-container">
       <div className='title'>
-        <h2>Skills</h2>
+        <div className='line'></div>
+        <h2 className='subtitle'>Skills</h2>
       </div>
       <div className='skills'>
         {icons.map(icon => (

@@ -1,15 +1,16 @@
 .App {
   font-family: Arial, sans-serif;
+  background-color: #EEEE;
 }
 
-h1, h2, h3 {
-  color: #333;
-}
 
 .title {
   display: flex;
   justify-content: left;
   margin: 1rem;
+  color: #DC5F00;
+  position: relative;
+  width: fit-content;
 }
 
 .containers {
@@ -24,8 +25,8 @@ h1, h2, h3 {
 }
 
 .card {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  background-color: #373A40;
+  color: #EEEEEE;
   border-radius: 8px;
   padding: 1rem;
   margin: 0.5rem;
@@ -37,4 +38,26 @@ h1, h2, h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+}
+
+.line {
+  position: absolute;
+  left: 0.5rem;
+  top: 2.1rem;
+  content: "";
+  display: block;
+  width: 0;
+  height: 1rem;
+  transform: skew(-15deg);
+  background: rgba(104, 109, 118,0.7);
+  background-size: 5rem 1rem;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  z-index: 0;
+}
+.subtitle {
+  z-index: 2;
+}
+
+.container:hover .line {
+  width: 100%;
 }

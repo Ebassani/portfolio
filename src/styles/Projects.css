@@ -9,18 +9,18 @@
 .project-card:hover {
   cursor: pointer;
 
-  -webkit-box-shadow: 0 0 10px 4px #bdbdbd;
-  -moz-box-shadow: 0 0 10px 4px #bdbdbd;
-  box-shadow: 0 0 10px 4px #bdbdbd;
+  -webkit-box-shadow: 0 0 10px 4px #686D76;
+  -moz-box-shadow: 0 0 10px 4px #686D76;
+  box-shadow: 0 0 10px 4px #686D76;
 
-  -o-transition: all .2s ease-in;
-  -webkit-transition: all .2s ease-in;
-  transition: all .2s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
 
 .project-card a {
   text-decoration: none;
-  color: #007bff;
+  color: #DC5F00;
 }
 
 .project-card a:hover {

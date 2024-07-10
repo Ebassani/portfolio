@@ -6,7 +6,8 @@ const Projects = (props) => {
   return (
     <div className="projects-container" id="projects">
       <div className='title'>
-        <h2>Projects</h2>
+        <div className='line'></div>
+        <h2 className='subtitle'>Projects</h2>
       </div>
       <div className="cards">
         {props.projects.map((project, index) => (
