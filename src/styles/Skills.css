@@ -5,3 +5,18 @@
   justify-content: center;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill_icon > img {
+  max-width: 4rem;
+  margin: 0.5rem;
+}
+
+.skill_icon {
+  display: flex;
+  align-items: center;
+}
