@@ -38,7 +38,7 @@ const projectsData = [
 function App() {
 
   useEffect(() => {
-    document.title = "Portifolio Eduardo"
+    document.title = "Portfolio Eduardo"
   }, [])
 
   return (
