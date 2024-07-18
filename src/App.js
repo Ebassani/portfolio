@@ -45,14 +45,16 @@ function App() {
     <div className="App">
       <Header />
       <div className='containers'>
-        <div id="about" className='container'>
-          <AboutMe />
-        </div>
-        <div id="skills" className='container'>
-          <Skills skills={skills}/>
-        </div>
-        <div id="projects" className='container'>
-          <Projects projects={projectsData}/>
+        <div className='container'>  
+          <div id="about" className='container_'>
+            <AboutMe />
+          </div>
+          <div id="skills" className='container_'>
+            <Skills skills={skills}/>
+          </div>
+          <div id="projects" className='container_'>
+            <Projects projects={projectsData}/>
+          </div>
         </div>
       </div>
     </div>
